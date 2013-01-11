@@ -1,0 +1,28 @@
+{
+    "author": {
+        "name": "Sergey Nikitin",
+        "email": "nik.pasaran@gmail.com",
+        "url": "https://github.com/pasaran"
+    },
+    "name": "no.benchmark",
+    "description": "Benchmark",
+    "version": "0.0.0",
+    "homepage": "https://github.com/pasaran/benchmarks",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/pasaran/benchmarks.git"
+    },
+    "engines": {
+        "node": "*"
+    },
+    "dependencies": {
+        "colors": "*",
+        "cli-table": "*",
+        "benchmark": "*"
+    },
+    "main": "no.benchmarks.js",
+    "files": [
+        "no..benchmarks.js"
+    ]
+}
+
