@@ -5,12 +5,12 @@
         "url": "https://github.com/pasaran"
     },
     "name": "no.benchmark",
-    "description": "Benchmark",
+    "description": "Simple benchmark for node.js (using benchmark and cli-table)",
     "version": "0.0.0",
-    "homepage": "https://github.com/pasaran/benchmarks",
+    "homepage": "https://github.com/pasaran/benchmark",
     "repository": {
         "type": "git",
-        "url": "git://github.com/pasaran/benchmarks.git"
+        "url": "git://github.com/pasaran/benchmark.git"
     },
     "engines": {
         "node": "*"
@@ -20,9 +20,9 @@
         "cli-table": "*",
         "benchmark": "*"
     },
-    "main": "no.benchmarks.js",
+    "main": "benchmark.js",
     "files": [
-        "no..benchmarks.js"
+        "benchmark.js"
     ]
 }
 
