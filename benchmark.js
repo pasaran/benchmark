@@ -1,3 +1,7 @@
+var util_ = require('util');
+
+//  ---------------------------------------------------------------------------------------------------------------  //
+
 require('colors');
 
 var Bench = require('benchmark');
@@ -43,6 +47,10 @@ function run(rows, columns) {
             });
         });
 
+        suite.on('cycle', function() {
+            util_.print('.');
+        });
+
         suite.on('complete', function() {
             var results = [];
 
@@ -83,6 +91,7 @@ function run(rows, columns) {
         suite.run();
     });
 
+    console.log('\n');
     console.log( table.toString() );
 }
 
